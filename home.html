@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(https://media.istockphoto.com/photos/wood-texture-background-white-wood-wall-and-floor-picture-id628495102?k=6&m=628495102&s=170667a&w=0&h=W9dTt8WwRPKAlDijxEihFu2bV2HmhL8sCmFqDghRVWM=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  transition: 1s ease;
+}
+ nav ul {
+   background-color: cadetblue;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+ }
+ nav ul li{
+   float: left;
+   list-style: None;
+   padding-left: 25px;
+ }
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  height: 20px;
+  padding: 10px;
+  font-size: 25px;
+  color: black;
+}
+nav ul li a:hover{
+  color: brown;
+}
+ #safety-logo{
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  margin-left: 0;
+}
+#groc-logo{
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  margin-left: 0;
+  float: right;
+}
+#veg-logo{
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  float: right;
+}
+#med-logo{
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  float: right;
+}
+ .container-1{
+   text-align: center;
+   font-size: 150%;
+   padding: 20px;;
+ }
+.sign{
+  text-align: center;
+}
+#register{
+  width: 200px;
+   height: 50px;
+   font-size: 40px;
+   align-items: center;
+   background-color: dodgerblue;
+}
+#register a{
+  text-decoration: none;
+}
+ #signin{
+   width: 200px;
+   height: 50px;
+   font-size: 40px;
+   align-items: center;
+   background-color: #00C851; 
+ }
+ #signin a{
+   text-decoration: none;
+ }
+ form{
+   padding: 20px;
+   font-size: 30px ;
+ }
+form input{
+  font-size: 20px;
+}
+form label{
+  padding-left: 20px;;
+}
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+  <nav>
+      <ul>
+        <li> <a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contacts</a></li>
+      </ul>
+      </nav></div>
+  </nav>
+  <div>
+  <img id="safety-logo" src="https://www.cucabali.com/wp-content/uploads/2020/07/Covid-Safe-stamp.png" alt="">
+  <img id="veg-logo" src="https://www.pngitem.com/pimgs/m/494-4943095_groceries-icon-everyday-icons-hd-png-download.png" alt="">
+  <img id="med-logo" src="https://image.shutterstock.com/image-vector/medical-pharmacy-logo-design-template-260nw-287587964.jpg" alt="">
+  <img id = "groc-logo"src="https://cdn.iconscout.com/icon/premium/png-512-thumb/organic-grocery-502172.png" alt="">
+</div>
+<div class="container-1">
+  <h1>Worried about your Safety</h1>
+  <h2>We are your Saviour</h2>
+</div>
+<div class="sign">
+  <button id="register"> <a href=""> Register </a></button>
+  <br>
+  <h3>OR</h3>
+  <form action="signin">
+    <label for="">Mobile Number:</label>
+    <input type="text" placeholder="Enter your number">
+
+    <label for="">Password:</label>
+    <input type="password" placeholder="Enter your password">
+  </form>
+  <button id="signin"> <a href=""> Sign In </a></button>
+</div>
+
+
+</body>
+</html>
